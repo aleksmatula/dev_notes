@@ -1,0 +1,19 @@
+My Git notes:
+
+git init - initialises traking git changes (new project)
+
+git status - checking the status
+
+git add filename - adding file to the staging area
+
+git diff filename - seeing changes between working directory and staging area
+
+git commit -m "message" - commiting git changes to files
+
+git log - to see the history of commits
+
+git checkout HEAD filename - will bring back the changes from the last commit to the file specified (will actually align your working directory with last commit)
+
+git reset HEAD filename - unstaging a file to the latest commit. Let's say you add a file to staging area and you realise it's wrong. You want to bring it back to the state of the latest commit.
+
+git reset SHA - resetting the HEAD commit to the one with the specified SHA (first 6 characters of the commit)
