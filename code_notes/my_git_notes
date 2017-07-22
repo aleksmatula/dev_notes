@@ -21,3 +21,10 @@ git reset SHA - resetting the HEAD commit to the one with the specified SHA (fir
 git branch - cehcking which branch am I currently in
 
 git branch branch_name - create new branch (where branch_name is the name of the branch that we want to be created)
+
+git checkout branch_name - switching to different branch name (where branch_name is the name of the branch we're switching to)
+
+git merge branch_name - merging (synching) a branch (usually master) with other branch. Notice that you are synching the branch you are currently in with the branch specified in the command. So if you want to merge master with the other branch you need to first switch to master and then run that command.
+
+git branch -d branch_name - deletes branch completely from git
+
