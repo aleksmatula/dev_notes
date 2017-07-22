@@ -28,3 +28,12 @@ git merge branch_name - merging (synching) a branch (usually master) with other 
 
 git branch -d branch_name - deletes branch completely from git
 
+git clone remote_location clone_name - clone remote repository locally where remote_location is for example github repo URL and clone_name is the name you give to the directory in which Git will clone the repository.
+
+git remote -v - Git lists the name of the remote, origin, as well as its location
+
+git fetch - checks if there were changes in the remote repo done. This command will not merge changes from the remote into your local repository. It brings those changes onto what's called a remote branch.
+
+git merge origin/master - merges the "fetched" changes (as described above) to the repository of choice 
+
+
