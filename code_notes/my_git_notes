@@ -16,4 +16,8 @@ git checkout HEAD filename - will bring back the changes from the last commit to
 
 git reset HEAD filename - unstaging a file to the latest commit. Let's say you add a file to staging area and you realise it's wrong. You want to bring it back to the state of the latest commit.
 
-git reset SHA - resetting the HEAD commit to the one with the specified SHA (first 6 characters of the commit)
+git reset SHA - resetting the HEAD commit to the one with the specified SHA (first 6 characters of the commit2
+
+git branch - cehcking which branch am I currently in
+
+git branch branch_name - create new branch (where branch_name is the name of the branch that we want to be created)
