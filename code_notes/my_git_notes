@@ -36,4 +36,5 @@ git fetch - checks if there were changes in the remote repo done. This command w
 
 git merge origin/master - merges the "fetched" changes (as described above) to the repository of choice 
 
+git remote add origin "remote repository URL" - if you've locally created a branch and you want to add it to the remote repository - that's how you'd do that
 
